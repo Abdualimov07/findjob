@@ -1,0 +1,403 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-02 16:59+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\job_project\settings.py:101
+msgid "Uzbek"
+msgstr ""
+
+#: .\job_project\settings.py:102
+msgid "Russian"
+msgstr ""
+
+#: .\job_project\settings.py:103
+msgid "English"
+msgstr ""
+
+#: .\templates\home\404.html:18
+msgid "Page Not Found"
+msgstr "Sahifa topilmadi"
+
+#: .\templates\home\404.html:19
+msgid ""
+"We’re sorry, the page you have looked for does not exist in our website! "
+"Maybe go to our home page or try to use a search?"
+msgstr ""
+"Kechirasiz, siz izlagan sahifa bizning veb-saytimizda mavjud emas!Balki "
+"bizning bosh sahifamizga o'ting yoki qidiruvdan foydalanmoqchimisiz?"
+
+#: .\templates\home\404.html:20
+msgid "Go Back To Home"
+msgstr "Bosh sahifaga qaytish"
+
+#: .\templates\home\base.html:199
+msgid "Home"
+msgstr "UY"
+
+#: .\templates\home\base.html:201
+msgid "Jobs"
+msgstr "Ishlar"
+
+#: .\templates\home\base.html:203 .\templates\home\job-list.html:6
+msgid "Job List"
+msgstr "Ish ro'yxati"
+
+#: .\templates\home\base.html:208
+msgid "Pages"
+msgstr "Sahifalar"
+
+#: .\templates\home\base.html:210
+msgid "Job Category"
+msgstr "Ish toifasi"
+
+#: .\templates\home\base.html:211
+msgid "404"
+msgstr "404"
+
+#: .\templates\home\base.html:214 .\templates\home\postjob.html:30
+#: .\templates\user\edit_job.html:26
+msgid "Contact"
+msgstr "Aloqa"
+
+#: .\templates\home\base.html:216 .\templates\user\user_jobs.html:5
+msgid "Your Jobs"
+msgstr "Ishlaringiz"
+
+#: .\templates\home\base.html:217
+msgid "Logout"
+msgstr "Chiqish"
+
+#: .\templates\home\base.html:219 .\templates\user\login.html:6
+#: .\templates\user\login.html:17
+msgid "Login"
+msgstr "Kirish"
+
+#: .\templates\home\base.html:223
+msgid "Post A Job"
+msgstr "Ish Joylash"
+
+#: .\templates\home\business.html:7
+msgid "Business Development Job Listings"
+msgstr "Biznesni rivojlantirish bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\business.html:14 .\templates\home\customer.html:13
+#: .\templates\home\design.html:13 .\templates\home\human.html:13
+#: .\templates\home\marketing.html:13 .\templates\home\sales.html:13
+#: .\templates\home\software.html:13 .\templates\home\teachingedu.html:13
+msgid "View Details"
+msgstr "Tafsilotlarni ko'rish"
+
+#: .\templates\home\business.html:18
+msgid "No Business Development job listings available."
+msgstr "Biznesni rivojlantirish bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\category.html:17 .\templates\home\index.html:77
+msgid "Explore By Category"
+msgstr "Turkum boʻyicha oʻrganing"
+
+#: .\templates\home\category.html:22 .\templates\home\index.html:82
+msgid "Marketing"
+msgstr "Marketing"
+
+#: .\templates\home\category.html:29 .\templates\home\index.html:89
+msgid "Customer Service"
+msgstr "Mijozlarga xizmat ko'rsatish"
+
+#: .\templates\home\category.html:36 .\templates\home\index.html:96
+msgid "Human Resource"
+msgstr "Inson resursi"
+
+#: .\templates\home\category.html:43 .\templates\home\index.html:103
+msgid "Software Engineering"
+msgstr "Dasturiy ta'minot muhandisligi"
+
+#: .\templates\home\category.html:50 .\templates\home\index.html:110
+msgid "Business Development"
+msgstr "Biznes rivoji"
+
+#: .\templates\home\category.html:57 .\templates\home\index.html:117
+msgid "Sales & Communication"
+msgstr "Sotish va aloqa"
+
+#: .\templates\home\category.html:64 .\templates\home\index.html:124
+msgid "Teaching & Education"
+msgstr "Ta'lim"
+
+#: .\templates\home\category.html:71 .\templates\home\index.html:131
+msgid "Design & Creative"
+msgstr "Dizayn va ijodkorlik"
+
+#: .\templates\home\contact.html:16
+msgid "Contact For Any Query"
+msgstr "Har qanday so'rov uchun murojaat qiling"
+
+#: .\templates\home\contact.html:54
+msgid ""
+"The contact form is currently inactive. Get a functional and working contact "
+"form with Ajax & PHP in a few minutes. Just copy and paste the files, add a "
+"little code and you're done."
+msgstr ""
+"Aloqa shakli hozirda faol emas. Funktsional va ishlaydigan kontaktni "
+"olingBir necha daqiqada Ajax va PHP bilan shakl yarating. Faqat fayllardan "
+"nusxa oling va joylashtiring, qo'shing.Kichik kod va siz tugatdingiz."
+
+#: .\templates\home\contact.html:54
+msgid "Download Now"
+msgstr "Hozir yuklab olmoq"
+
+#: .\templates\home\contact.html:60
+msgid "Your Name"
+msgstr "Ismingiz"
+
+#: .\templates\home\contact.html:66
+msgid "Your Email"
+msgstr "Emailingiz"
+
+#: .\templates\home\contact.html:72
+msgid "Subject"
+msgstr "Mavzu"
+
+#: .\templates\home\contact.html:78
+msgid "Message"
+msgstr "Xabar"
+
+#: .\templates\home\contact.html:82
+msgid "Send Message"
+msgstr "Xabarni yuborish"
+
+#: .\templates\home\customer.html:6
+msgid "Customer Service Job Listings"
+msgstr "Mijozlarga xizmat ko'rsatish bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\customer.html:17
+msgid "No Customer Service job listings available."
+msgstr "Mijozlarga xizmat ko‘rsatish bo‘yicha ish ro‘yxati mavjud emas."
+
+#: .\templates\home\design.html:6
+msgid "Design & Creative Job Listings"
+msgstr "Dizayn va ijodiy ish ro'yxati"
+
+#: .\templates\home\design.html:17
+msgid "No Design & Creative job listings available."
+msgstr "Dizayn va ijodkorlik bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\human.html:6
+msgid "Human Resource Job Listings"
+msgstr "Inson resurslari bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\human.html:17
+msgid "No Human Resource job listings available."
+msgstr "Inson resurslari bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\index.html:21
+msgid "Find The Perfect Job That You Deserved"
+msgstr "O'zingizga munosib bo'lgan mukammal ishni toping"
+
+#: .\templates\home\index.html:22 .\templates\home\index.html:38
+msgid ""
+"Our platform provides an opportunity to choose from a variety of positions "
+"in innovative companies so that you can find the perfect combination of your "
+"skills, interests and ambitions. Join us and find your ideal startup path!\""
+msgstr ""
+"Bizning platformamiz turli lavozimlardan tanlash imkoniyatini "
+"beradiInnovatsion kompaniyalarda o'zingizning mukammal kombinatsiyangizni "
+"topishingiz uchunKonikmalar, qiziqishlar va ambitsiyalar. Bizga qoshiling va "
+"ozingizning ideal startap yolingizni toping!"
+
+#: .\templates\home\index.html:23 .\templates\home\index.html:39
+msgid "Search A Job"
+msgstr "Ish qidirmoq"
+
+#: .\templates\home\index.html:37
+msgid "Find The Best Startup Job That Fit You"
+msgstr "Sizga mos keladigan eng yaxshi startap ishini toping"
+
+#: .\templates\home\index.html:61
+msgid "Search"
+msgstr "Qidiruv"
+
+#: .\templates\home\index.html:162
+msgid "We Help To Get The Best Job And Find A Talent"
+msgstr "Biz eng yaxshi ish topishga va iqtidor topishga yordam beramiz"
+
+#: .\templates\home\index.html:163
+msgid ""
+"Are you looking for the perfect position or do you want to find the best "
+"people for your company? We are your reliable partner in the world of "
+"employment and talent search. Our mission is to connect you with the best "
+"career opportunities and the most suitable candidates."
+msgstr ""
+"Siz mukammal pozitsiyani qidiryapsizmi yoki eng yaxshisini "
+"topmoqchimisizSizning kompaniyangiz uchun odamlar? Biz sizning dunyoda "
+"ishonchli hamkorimizBandlik va iste'dod izlash. Bizning vazifamiz sizni eng "
+"yaxshilar bilan bog'lashdirIshga qabul qilish imkoniyatlari va eng munosib "
+"nomzodlar"
+
+#: .\templates\home\index.html:164
+msgid "You will find a job with us faster"
+msgstr "Biz bilan tezroq ish topasiz"
+
+#: .\templates\home\index.html:165
+msgid "The most convenient jobs"
+msgstr "Eng qulay ish o'rinlari"
+
+#: .\templates\home\index.html:166
+msgid "The most profitable jobs"
+msgstr "Eng daromadli kasblar"
+
+#: .\templates\home\index.html:180
+msgid "Latest Jobs"
+msgstr "Eng so'nggi ish o'rinlari"
+
+#: .\templates\home\marketing.html:6
+msgid "Marketing Job Listings"
+msgstr "Marketing bo'yicha ish ro'yxati"
+
+#: .\templates\home\marketing.html:17
+msgid "No Marketing job listings available."
+msgstr "Marketing bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\postjob.html:10
+msgid "Post a Job"
+msgstr "Ish joylash"
+
+#: .\templates\home\postjob.html:14
+msgid "Job Title"
+msgstr "Ish nomi"
+
+#: .\templates\home\postjob.html:18
+msgid "Job Description"
+msgstr "Ish xaqida"
+
+#: .\templates\home\postjob.html:22 .\templates\user\edit_job.html:18
+msgid "Location"
+msgstr "Joylashuv"
+
+#: .\templates\home\postjob.html:26 .\templates\user\edit_job.html:22
+msgid "Salary"
+msgstr "Maosh"
+
+#: .\templates\home\postjob.html:34 .\templates\user\edit_job.html:30
+msgid "Category"
+msgstr "Turkumi"
+
+#: .\templates\home\postjob.html:37
+msgid "Submit"
+msgstr "Saqlash"
+
+#: .\templates\home\sales.html:6
+msgid "Sales & Communication Job Listings"
+msgstr "Savdo va aloqa bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\sales.html:17
+msgid "No Sales & Communication job listings available."
+msgstr "Savdo va aloqa bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\search_result.html:5
+msgid "Search Results"
+msgstr "Qidiruv natijalari"
+
+#: .\templates\home\search_result.html:15
+msgid "No jobs found."
+msgstr "Hech qanday ish topilmadi."
+
+#: .\templates\home\software.html:6
+msgid "Software Engineering Job Listings"
+msgstr "Dasturiy ta'minot muhandisligi bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\software.html:17
+msgid "No Software Engineering job listings available."
+msgstr "Dasturiy ta'minot muhandisligi bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\home\teachingedu.html:6
+msgid "Teaching & Education Job Listings"
+msgstr "O'qitish va ta'lim bo'yicha ish ro'yxatlari"
+
+#: .\templates\home\teachingedu.html:17
+msgid "No Teaching & Education job listings available."
+msgstr "Ta'lim va ta'lim bo'yicha ish ro'yxati mavjud emas."
+
+#: .\templates\user\delete_job.html:6 .\templates\user\registration.html:6
+msgid "Delete Job"
+msgstr "O'chirmoq"
+
+#: .\templates\user\delete_job.html:7
+msgid "Are you sure you want to delete"
+msgstr "Haqiqatan ham oʻchirib tashlamoqchimisiz"
+
+#: .\templates\user\delete_job.html:10 .\templates\user\registration.html:10
+#: .\templates\user\user_jobs.html:17
+msgid "Delete"
+msgstr "O'chirmoq"
+
+#: .\templates\user\delete_job.html:12
+msgid "Cancel"
+msgstr "Orqaga"
+
+#: .\templates\user\edit_job.html:6
+msgid "Edit Job"
+msgstr "Tahrirlash"
+
+#: .\templates\user\edit_job.html:10
+msgid "Title"
+msgstr "Nomi"
+
+#: .\templates\user\edit_job.html:14
+msgid "Description"
+msgstr "Xaqida"
+
+#: .\templates\user\edit_job.html:33
+msgid "Save Changes"
+msgstr "Saqlash"
+
+#: .\templates\user\login.html:10
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+#: .\templates\user\login.html:14
+msgid "Password"
+msgstr "Parol"
+
+#: .\templates\user\login.html:19
+msgid "If you are not registered,"
+msgstr "Agar ro'yxatdan o'tmagan bo'lsangiz,"
+
+#: .\templates\user\login.html:19
+msgid "register here"
+msgstr "ro'yhatdan o'ting"
+
+#: .\templates\user\registration.html:7
+msgid "Are you sure you want to delete "
+msgstr "Haqiqatan ham oʻchirib tashlamoqchimisiz"
+
+#: .\templates\user\registration.html:12
+msgid "If you want to go back,"
+msgstr "Qaytmoqchi bo'lsangiz,"
+
+#: .\templates\user\registration.html:12
+msgid "click here"
+msgstr "Bu yerga bosing"
+
+#: .\templates\user\user_jobs.html:16
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: .\templates\user\user_jobs.html:23
+msgid "You haven't posted any jobs yet."
+msgstr "Siz hali hech qanday ish joylashmagansiz."

@@ -1,0 +1,202 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="{% static 'img/carousel-1.jpg' %}" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">{% blocktrans %}Find The Perfect Job That You Deserved{% endblocktrans %}</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">{% blocktrans %}Our platform provides an opportunity to choose from a variety of positions in innovative companies so that you can find the perfect combination of your skills, interests and ambitions. Join us and find your ideal startup path!"{% endblocktrans %}</p>
+                                    <a href="{% url 'job_list' %}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">{% blocktrans %}Search A Job{% endblocktrans %}</a>
+                                    {% comment %} <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a> {% endcomment %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="{% static 'img/carousel-2.jpg' %}" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">{% blocktrans %}Find The Best Startup Job That Fit You{% endblocktrans %}</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">{% blocktrans %}Our platform provides an opportunity to choose from a variety of positions in innovative companies so that you can find the perfect combination of your skills, interests and ambitions. Join us and find your ideal startup path!"{% endblocktrans %}</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">{% blocktrans %}Search A Job{% endblocktrans %}</a>
+                                    {% comment %} <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a> {% endcomment %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4" style="">
+                                <form method="get" action="{% url 'search_result' %}" style="display:flex">
+                                    <input type="search" name="q" class="form-control border-0" placeholder="Keyword" style="margin-left:400px; width:800px;" />
+                                    <button class="btn btn-dark border-0 w-100" type="submit">{% blocktrans %}Search{% endblocktrans %}</button>
+
+                                </form>                            
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">{% blocktrans %}Explore By Category{% endblocktrans %}</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="{% url 'marketing' %}">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Marketing{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="{% url 'customer' %}">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Customer Service{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="{% url 'human' %}">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Human Resource{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="{% url 'software' %}">
+                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Software Engineering{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="{% url 'business' %}">
+                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Business Development{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="{% url 'sales' %}">
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Sales & Communication{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="{% url 'teachingedu' %}">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Teaching & Education{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="{% url 'design' %}">
+                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                            <h6 class="mb-3">{% blocktrans %}Design & Creative{% endblocktrans %}</h6>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 about-bg rounded overflow-hidden">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="{% static 'img/about-1.jpg' %}">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid" src="{% static 'img/about-2.jpg' %}" style="width: 85%; margin-top: 15%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid" src="{% static 'img/about-3.jpg' %}" style="width: 85%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="{% static 'img/about-4.jpg' %}">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">{% blocktrans %}We Help To Get The Best Job And Find A Talent{% endblocktrans %}</h1>
+                        <p class="mb-4">{% blocktrans %}Are you looking for the perfect position or do you want to find the best people for your company? We are your reliable partner in the world of employment and talent search. Our mission is to connect you with the best career opportunities and the most suitable candidates.{% endblocktrans %}</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>{% blocktrans %}You will find a job with us faster{% endblocktrans %}</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>{% blocktrans %}The most convenient jobs{% endblocktrans %}</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>{% blocktrans %}The most profitable jobs{% endblocktrans %}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Jobs Start -->
+
+        <!-- Latest Jobs Start -->
+        <section class="latest-jobs">
+            <div class="container">
+                <h1 class="text-center mb-4">{% blocktrans %}Latest Jobs{% endblocktrans %}</h1>
+                <div class="row justify-content-center">
+                    {% for job in latest_jobs %}
+                        <div class="col-md-6 col-lg-4 mb-4">
+                            <div class="job-card">
+                                <p class="job-date"><i class="fas fa-clock"></i> {{ job.created_at|date:"M d, Y" }}</p>
+                                <h2 class="job-title"><a href="{% url 'job_detail' job.id %}">{{ job.title }}</a></h2>
+                                <p class="job-location"><i class="fas fa-map-marker-alt"></i> {{ job.location }}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <!-- Jobs End -->
+
+
+            
+
+
+</body>
+
+</html>
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">{{ job.title }}</h2>
+                        <p class="card-text">{{ job.description }}</p>
+                        <ul class="list-unstyled">
+                            <li><strong><i class="fas fa-map-marker-alt"></i></strong> {{ job.location }}</li>
+                            <li><strong><i class="fas fa-dollar-sign"></i></strong> {{ job.salary }}</li>
+                            <li><strong><i class="fas fa-envelope"></i></strong> {{ job.contact }}</li>
+                            <li><strong><i class="fas fa-folder"></i></strong> {{ job.category }}</li>
+                            <li><strong><i class="fas fa-clock"></i></strong> {{ job.created_at }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

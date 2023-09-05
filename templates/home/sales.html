@@ -1,0 +1,20 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <h2 class="mt-4 mb-3">{% blocktrans %}Sales & Communication Job Listings{% endblocktrans %}</h2>
+        {% for sales in sales_job %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">{{ sales.title }}</h4>
+                    <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{ sales.location }}</p>
+                    <p class="card-text"><i class="fas fa-clock"></i> {{ sales.created_at }}</p>
+                    <a href="{% url 'job_detail' sales.id %}" class="btn btn-primary">{% blocktrans %}View Details{% endblocktrans %}</a>
+                </div>
+            </div>
+        {% empty %}
+            <p>{% blocktrans %}No Sales & Communication job listings available.{% endblocktrans %}</p>
+        {% endfor %}
+    </div>
+{% endblock %}

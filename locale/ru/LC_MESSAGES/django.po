@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-02 17:16+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\job_project\settings.py:101
+msgid "Uzbek"
+msgstr "Узбекский"
+
+#: .\job_project\settings.py:102
+msgid "Russian"
+msgstr "Русский"
+
+#: .\job_project\settings.py:103
+msgid "English"
+msgstr "Английский"
+
+#: .\templates\home\404.html:18
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: .\templates\home\404.html:19
+msgid ""
+"We’re sorry, the page you have looked for does not exist in our website! "
+"Maybe go to our home page or try to use a search?"
+msgstr ""
+"К сожалению, страница, которую вы искали, не существует на нашем сайте!Может "
+"быть, зайти на нашу домашнюю страницу или попробовать воспользоваться "
+"поиском?"
+
+#: .\templates\home\404.html:20
+msgid "Go Back To Home"
+msgstr "Вернуться домой"
+
+#: .\templates\home\base.html:196
+msgid "Home"
+msgstr "Дом"
+
+#: .\templates\home\base.html:198
+msgid "Jobs"
+msgstr "Вакансии"
+
+#: .\templates\home\base.html:200 .\templates\home\job-list.html:6
+msgid "Job List"
+msgstr "Список вакансий"
+
+#: .\templates\home\base.html:205
+msgid "Pages"
+msgstr "Страницы"
+
+#: .\templates\home\base.html:207
+msgid "Job Category"
+msgstr "Категории"
+
+#: .\templates\home\base.html:208
+msgid "404"
+msgstr "404"
+
+#: .\templates\home\base.html:211 .\templates\home\postjob.html:30
+#: .\templates\user\edit_job.html:26
+msgid "Contact"
+msgstr "Контакт"
+
+#: .\templates\home\base.html:213 .\templates\user\user_jobs.html:5
+msgid "Your Jobs"
+msgstr "Работа"
+
+#: .\templates\home\base.html:214
+msgid "Logout"
+msgstr "Выйти"
+
+#: .\templates\home\base.html:216 .\templates\user\login.html:6
+#: .\templates\user\login.html:17
+msgid "Login"
+msgstr "Логин"
+
+#: .\templates\home\base.html:220
+msgid "Post A Job"
+msgstr "Опубликовать"
+
+#: .\templates\home\business.html:7
+msgid "Business Development Job Listings"
+msgstr "Списки вакансий по развитию бизнеса"
+
+#: .\templates\home\business.html:14 .\templates\home\customer.html:13
+#: .\templates\home\design.html:13 .\templates\home\human.html:13
+#: .\templates\home\marketing.html:13 .\templates\home\sales.html:13
+#: .\templates\home\software.html:13 .\templates\home\teachingedu.html:13
+msgid "View Details"
+msgstr "Посмотреть детали"
+
+#: .\templates\home\business.html:18
+msgid "No Business Development job listings available."
+msgstr "Списков вакансий в сфере развития бизнеса нет."
+
+#: .\templates\home\category.html:17 .\templates\home\index.html:77
+msgid "Explore By Category"
+msgstr "Исследуйте по категориям"
+
+#: .\templates\home\category.html:22 .\templates\home\index.html:82
+msgid "Marketing"
+msgstr "Маркетинг"
+
+#: .\templates\home\category.html:29 .\templates\home\index.html:89
+msgid "Customer Service"
+msgstr "Обслуживание клиентов"
+
+#: .\templates\home\category.html:36 .\templates\home\index.html:96
+msgid "Human Resource"
+msgstr "Человеческие ресурсы"
+
+#: .\templates\home\category.html:43 .\templates\home\index.html:103
+msgid "Software Engineering"
+msgstr "Программная инженерия"
+
+#: .\templates\home\category.html:50 .\templates\home\index.html:110
+msgid "Business Development"
+msgstr "Развитие бизнеса"
+
+#: .\templates\home\category.html:57 .\templates\home\index.html:117
+msgid "Sales & Communication"
+msgstr "Продажи и коммуникации"
+
+#: .\templates\home\category.html:64 .\templates\home\index.html:124
+msgid "Teaching & Education"
+msgstr "Обучение и образование"
+
+#: .\templates\home\category.html:71 .\templates\home\index.html:131
+msgid "Design & Creative"
+msgstr "Дизайн и креатив"
+
+#: .\templates\home\contact.html:16
+msgid "Contact For Any Query"
+msgstr "Контакт для любого запроса"
+
+#: .\templates\home\contact.html:54
+msgid ""
+"The contact form is currently inactive. Get a functional and working contact "
+"form with Ajax & PHP in a few minutes. Just copy and paste the files, add a "
+"little code and you're done."
+msgstr ""
+"Форма связи в данный момент неактивна. Получите функциональный и работающий "
+"контактсформируйте с помощью Ajax и PHP за несколько минут. Просто "
+"скопируйте и вставьте файлы, добавьтенебольшой код, и все готово."
+
+#: .\templates\home\contact.html:54
+msgid "Download Now"
+msgstr "Скачать сейчас"
+
+#: .\templates\home\contact.html:60
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: .\templates\home\contact.html:66
+msgid "Your Email"
+msgstr "Ваш Email"
+
+#: .\templates\home\contact.html:72
+msgid "Subject"
+msgstr "Предмет"
+
+#: .\templates\home\contact.html:78
+msgid "Message"
+msgstr "Сообщение"
+
+#: .\templates\home\contact.html:82
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: .\templates\home\customer.html:6
+msgid "Customer Service Job Listings"
+msgstr "Списки вакансий по обслуживанию клиентов"
+
+#: .\templates\home\customer.html:17
+msgid "No Customer Service job listings available."
+msgstr "Списков вакансий в сфере обслуживания клиентов нет."
+
+#: .\templates\home\design.html:6
+msgid "Design & Creative Job Listings"
+msgstr "Списки вакансий в области дизайна и креатива"
+
+#: .\templates\home\design.html:17
+msgid "No Design & Creative job listings available."
+msgstr "Нет доступных списков вакансий в области дизайна и креатива."
+
+#: .\templates\home\human.html:6
+msgid "Human Resource Job Listings"
+msgstr "Списки вакансий отдела кадров"
+
+#: .\templates\home\human.html:17
+msgid "No Human Resource job listings available."
+msgstr "Списков вакансий отдела кадров нет."
+
+#: .\templates\home\index.html:21
+msgid "Find The Perfect Job That You Deserved"
+msgstr "Найдите идеальную работу, которую вы заслужили"
+
+#: .\templates\home\index.html:22 .\templates\home\index.html:38
+msgid ""
+"Our platform provides an opportunity to choose from a variety of positions "
+"in innovative companies so that you can find the perfect combination of your "
+"skills, interests and ambitions. Join us and find your ideal startup path!\""
+msgstr ""
+"Наша платформа предоставляет возможность выбора из множества позицийв "
+"инновационных компаниях, чтобы вы могли найти идеальное сочетание "
+"своихнавыки, интересы и амбиции. Присоединяйтесь к нам и найдите свой "
+"идеальный путь для стартапа!"
+
+#: .\templates\home\index.html:23 .\templates\home\index.html:39
+msgid "Search A Job"
+msgstr "Поиск работы"
+
+#: .\templates\home\index.html:37
+msgid "Find The Best Startup Job That Fit You"
+msgstr "Найдите лучшую работу в стартапе, которая подойдет именно вам"
+
+#: .\templates\home\index.html:61
+msgid "Search"
+msgstr "Поиск"
+
+#: .\templates\home\index.html:162
+msgid "We Help To Get The Best Job And Find A Talent"
+msgstr "Мы помогаем получить лучшую работу и найти талант"
+
+#: .\templates\home\index.html:163
+msgid ""
+"Are you looking for the perfect position or do you want to find the best "
+"people for your company? We are your reliable partner in the world of "
+"employment and talent search. Our mission is to connect you with the best "
+"career opportunities and the most suitable candidates."
+msgstr ""
+"Вы ищете идеальную позицию или хотите найти лучшеелюди для вашей компании? "
+"Мы ваш надежный партнер в мирепоиск работы и талантов. Наша миссия - связать "
+"вас с лучшимикарьерные возможности и наиболее подходящие кандидаты."
+
+#: .\templates\home\index.html:164
+msgid "You will find a job with us faster"
+msgstr "С нами вы найдете работу быстрее"
+
+#: .\templates\home\index.html:165
+msgid "The most convenient jobs"
+msgstr "Самые удобные вакансии"
+
+#: .\templates\home\index.html:166
+msgid "The most profitable jobs"
+msgstr "Самые прибыльные вакансии"
+
+#: .\templates\home\index.html:180
+msgid "Latest Jobs"
+msgstr "Последние вакансии"
+
+#: .\templates\home\marketing.html:6
+msgid "Marketing Job Listings"
+msgstr "Списки вакансий по маркетингу"
+
+#: .\templates\home\marketing.html:17
+msgid "No Marketing job listings available."
+msgstr "Списков вакансий маркетолога нет."
+
+#: .\templates\home\postjob.html:10
+msgid "Post a Job"
+msgstr "Опубликовать вакансию"
+
+#: .\templates\home\postjob.html:14
+msgid "Job Title"
+msgstr "Должность"
+
+#: .\templates\home\postjob.html:18
+msgid "Job Description"
+msgstr "Описание работы"
+
+#: .\templates\home\postjob.html:22 .\templates\user\edit_job.html:18
+msgid "Location"
+msgstr "Расположение"
+
+#: .\templates\home\postjob.html:26 .\templates\user\edit_job.html:22
+msgid "Salary"
+msgstr "Зарплата"
+
+#: .\templates\home\postjob.html:34 .\templates\user\edit_job.html:30
+msgid "Category"
+msgstr "Категория"
+
+#: .\templates\home\postjob.html:37
+msgid "Submit"
+msgstr "Сохранить"
+
+#: .\templates\home\sales.html:6
+msgid "Sales & Communication Job Listings"
+msgstr "Списки вакансий по продажам и коммуникациям"
+
+#: .\templates\home\sales.html:17
+msgid "No Sales & Communication job listings available."
+msgstr "Списков вакансий в сфере продаж и коммуникаций нет."
+
+#: .\templates\home\search_result.html:5
+msgid "Search Results"
+msgstr "Pезультаты Поиска"
+
+#: .\templates\home\search_result.html:15
+msgid "No jobs found."
+msgstr "Вакансий не найдено."
+
+#: .\templates\home\software.html:6
+msgid "Software Engineering Job Listings"
+msgstr "Списки вакансий в области разработки программного обеспечения"
+
+#: .\templates\home\software.html:17
+msgid "No Software Engineering job listings available."
+msgstr "Списков вакансий в области разработки программного обеспечения нет."
+
+#: .\templates\home\teachingedu.html:6
+msgid "Teaching & Education Job Listings"
+msgstr "Списки вакансий в сфере преподавания и образования"
+
+#: .\templates\home\teachingedu.html:17
+msgid "No Teaching & Education job listings available."
+msgstr "Списков вакансий в сфере преподавания и образования нет."
+
+#: .\templates\user\delete_job.html:6 .\templates\user\registration.html:6
+msgid "Delete Job"
+msgstr "Удалить задание"
+
+#: .\templates\user\delete_job.html:7
+msgid "Are you sure you want to delete"
+msgstr "Вы уверены, что хотите удалить"
+
+#: .\templates\user\delete_job.html:10 .\templates\user\registration.html:10
+#: .\templates\user\user_jobs.html:17
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\user\delete_job.html:12
+msgid "Cancel"
+msgstr "Отмена"
+
+#: .\templates\user\edit_job.html:6
+msgid "Edit Job"
+msgstr "Редактировать"
+
+#: .\templates\user\edit_job.html:10
+msgid "Title"
+msgstr "Заголовок"
+
+#: .\templates\user\edit_job.html:14
+msgid "Description"
+msgstr "Описание"
+
+#: .\templates\user\edit_job.html:33
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: .\templates\user\login.html:10
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: .\templates\user\login.html:14
+msgid "Password"
+msgstr "Пароль"
+
+#: .\templates\user\login.html:19
+msgid "If you are not registered,"
+msgstr "Если вы не зарегистрированы,"
+
+#: .\templates\user\login.html:19
+msgid "register here"
+msgstr "зарегистрируйтесь здесь"
+
+#: .\templates\user\registration.html:7
+msgid "Are you sure you want to delete "
+msgstr "Вы уверены, что хотите удалить"
+
+#: .\templates\user\registration.html:12
+msgid "If you want to go back,"
+msgstr "Если ты хочешь вернуться назад,"
+
+#: .\templates\user\registration.html:12
+msgid "click here"
+msgstr "кликните сюда"
+
+#: .\templates\user\user_jobs.html:16
+msgid "Edit"
+msgstr "Редактировать"
+
+#: .\templates\user\user_jobs.html:23
+msgid "You haven't posted any jobs yet."
+msgstr "Вы еще не разместили ни одной вакансии."

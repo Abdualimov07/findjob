@@ -1,0 +1,20 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <h2 class="mt-4 mb-3">{% blocktrans %}Software Engineering Job Listings{% endblocktrans %}</h2>
+        {% for software in software_job %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title">{{ software.title }}</h4>
+                    <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{ software.location }}</p>
+                    <p class="card-text"><i class="fas fa-clock"></i> {{ software.created_at }}</p>
+                    <a href="{% url 'job_detail' software.id %}" class="btn btn-primary">{% blocktrans %}View Details{% endblocktrans %}</a>
+                </div>
+            </div>
+        {% empty %}
+            <p>{% blocktrans %}No Software Engineering job listings available.{% endblocktrans %}</p>
+        {% endfor %}
+    </div>
+{% endblock %}

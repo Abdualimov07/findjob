@@ -1,0 +1,44 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">{% blocktrans %}Post a Job{% endblocktrans %}</h2>
+                        <form method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <label for="{{ form.title.id_for_label }}" class="form-label">{% blocktrans %}Job Title{% endblocktrans %}</label>
+                                {{ form.title }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="{{ form.description.id_for_label }}" class="form-label">{% blocktrans %}Job Description{% endblocktrans %}</label>
+                                {{ form.description }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="{{ form.location.id_for_label }}" class="form-label">{% blocktrans %}Location{% endblocktrans %}</label>
+                                {{ form.location }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="{{ form.salary.id_for_label }}" class="form-label">{% blocktrans %}Salary{% endblocktrans %}</label>
+                                {{ form.salary }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="{{ form.contact.id_for_label }}" class="form-label">{% blocktrans %}Contact{% endblocktrans %}</label>
+                                {{ form.contact }}
+                            </div>
+                            <div class="mb-3">
+                                <label for="{{ form.category.id_for_label }}" class="form-label">{% blocktrans %}Category{% endblocktrans %}</label>
+                                {{ form.category }}
+                            </div>
+                            <button type="submit" class="btn btn-primary">{% blocktrans %}Submit{% endblocktrans %}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

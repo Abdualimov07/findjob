@@ -1,0 +1,21 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <h1 class="mt-4 mb-4">{% blocktrans %}Job List{% endblocktrans %}</h1>
+        <ul class="list-group">
+            {% for job in jobs %}
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h4><a href="{% url 'job_detail' job.id %}">{{ job.title }}</a></h4>
+                            <p><i class="fas fa-map-marker-alt"></i> {{ job.location }}</p>
+                            <p><i class="fas fa-clock"></i> {{ job.created_at }}</p>
+                        </div>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock content %}

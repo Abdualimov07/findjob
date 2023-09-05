@@ -1,0 +1,15 @@
+{% extends 'home/base.html' %}
+{% load i18n %}
+{% block content %}
+    <div class="container">
+        <div class="my-4">
+            <h2>{% blocktrans %}Delete Job{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Are you sure you want to delete {% endblocktrans %}"{{ job.title }}"?</p>
+            <form method="post">
+                {% csrf_token %}
+                <button class="btn btn-danger" type="submit">{% blocktrans %}Delete{% endblocktrans %}</button>
+            </form>
+            <p class="mt-3">{% blocktrans %}If you want to go back,{% endblocktrans %} <a href="{% url 'login' %}" class="text-success">{% blocktrans %}click here{% endblocktrans %}</a>.</p>
+        </div>
+    </div>
+{% endblock %}
